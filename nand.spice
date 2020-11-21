@@ -1,0 +1,18 @@
+* SPICE3 file created from nand.ext - technology: sky130A
+
+.option scale=10000u
+
+.subckt nand A VPWR VGND B Y
+X0 a_40_n204# A Y VGND sky130_fd_pr__nfet_01v8 w=42 l=40
+X1 VPWR B Y VPWR sky130_fd_pr__pfet_01v8 w=84 l=40
+X2 Y A VPWR VPWR sky130_fd_pr__pfet_01v8 w=84 l=40
+X3 VGND B a_40_n204# VGND sky130_fd_pr__nfet_01v8 w=42 l=40
+C0 A VPWR 0.02fF
+C1 A B 0.10fF
+C2 Y VPWR 0.08fF
+C3 B Y 0.02fF
+C4 B VPWR 0.02fF
+C5 A Y 0.15fF
+C6 Y VGND 0.24fF
+C7 VPWR VGND 0.99fF
+.ends

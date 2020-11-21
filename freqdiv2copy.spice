@@ -1,0 +1,64 @@
+* SPICE3 file created from freqdiv2copy.ext - technology: sky130A
+
+
+.subckt freqdiv2copy VGND clk q VPWR
+X0 a_414_n670# q VGND VGND sky130_fd_pr__nfet_01v8 w=600n l=400n
+X1 a_300_n670# a_34_n670# a_188_n670# VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X2 a_414_n670# a_34_n670# a_300_n670# VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X3 a_679_n670# a_188_n670# VGND VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X4 a_34_n670# clk VGND VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X5 a_300_n670# clk a_188_n670# VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X6 a_414_n670# clk a_300_n670# VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X7 q a_188_n670# VPWR VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X8 a_188_n670# a_137_n358# VPWR VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X9 a_137_n358# clk a_414_n670# VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X10 a_188_n670# a_137_n358# VGND VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X11 a_414_n670# q VPWR VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X12 a_137_n358# a_34_n670# a_414_n670# VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X13 a_34_n670# clk VPWR VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X14 a_679_n670# a_188_n670# VPWR VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+X15 a_137_n358# clk a_679_n670# VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X16 q a_188_n670# VGND VGND sky130_fd_pr__nfet_01v8 w=60 l=40
+X17 a_137_n358# a_34_n670# a_679_n670# VPWR sky130_fd_pr__pfet_01v8 w=160 l=40
+C0 a_137_n358# a_679_n670# 0.63fF
+C1 q clk 0.01fF
+C2 VPWR q 0.29fF
+C3 a_414_n670# a_300_n670# 0.34fF
+C4 a_679_n670# a_188_n670# 0.09fF
+C5 a_414_n670# clk 0.42fF
+C6 VPWR a_414_n670# 0.16fF
+C7 a_137_n358# a_300_n670# 0.20fF
+C8 a_137_n358# clk 0.65fF
+C9 VPWR a_137_n358# 0.49fF
+C10 a_188_n670# a_300_n670# 0.41fF
+C11 a_188_n670# clk 0.64fF
+C12 a_679_n670# a_34_n670# 0.13fF
+C13 VPWR a_188_n670# 0.09fF
+C14 a_414_n670# q 0.44fF
+C15 a_34_n670# a_300_n670# 0.12fF
+C16 a_34_n670# clk 0.46fF
+C17 VPWR a_34_n670# 0.28fF
+C18 a_137_n358# q 0.25fF
+C19 a_137_n358# a_414_n670# 0.67fF
+C20 a_188_n670# q 0.25fF
+C21 a_414_n670# a_188_n670# 0.50fF
+C22 a_137_n358# a_188_n670# 2.42fF
+C23 a_34_n670# q 0.01fF
+C24 a_679_n670# clk 0.13fF
+C25 VPWR a_679_n670# 0.14fF
+C26 a_414_n670# a_34_n670# 0.35fF
+C27 a_137_n358# a_34_n670# 0.45fF
+C28 a_300_n670# clk 0.21fF
+C29 VPWR a_300_n670# 0.05fF
+C30 VPWR clk 0.00fF
+C31 a_34_n670# a_188_n670# 0.76fF
+C32 a_414_n670# a_679_n670# 0.04fF
+C33 q VGND 0.04fF
+C34 clk VGND 0.68fF
+C35 VPWR VGND 0.07fF
+C36 a_679_n670# VGND 0.87fF
+C37 a_414_n670# VGND 2.08fF
+C38 a_300_n670# VGND 0.84fF
+C39 a_188_n670# VGND 4.19fF
+C40 a_137_n358# VGND 3.81fF
+.ends

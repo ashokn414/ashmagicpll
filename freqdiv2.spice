@@ -1,0 +1,23 @@
+* NGSPICE file created from freqdiv2.ext - technology: sky130A
+
+.subckt freqdiv2 VGND clk q VPWR
+X0 a_414_n670# q VGND VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X1 a_300_n670# a_61_n670# a_201_n670# VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X2 a_414_n670# a_61_n670# a_300_n670# VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X3 a_201_n670# a_150_n358# VPWR VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X4 a_201_n670# a_150_n358# VGND VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X5 a_679_n670# a_201_n670# VGND VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X6 a_300_n670# clk a_201_n670# VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X7 a_414_n670# clk a_300_n670# VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X8 q a_300_n670# VPWR VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X9 a_150_n358# clk a_414_n670# VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X10 a_414_n670# q VPWR VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X11 a_150_n358# a_61_n670# a_414_n670# VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X12 a_61_n670# clk VGND VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X13 a_679_n670# a_201_n670# VPWR VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X14 a_150_n358# clk a_679_n670# VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X15 a_61_n670# clk VPWR VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+X16 q a_300_n670# VGND VGND sky130_fd_pr__nfet_01v8 w=600000u l=400000u
+X17 a_150_n358# a_61_n670# a_679_n670# VPWR sky130_fd_pr__pfet_01v8 w=1.6e+06u l=400000u
+.ends
+

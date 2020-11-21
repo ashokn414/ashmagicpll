@@ -1,0 +1,8 @@
+* SPICE3 file created from inverter.ext - technology: sky130A
+
+.option scale=10000u
+
+.subckt inverter A Y VPWR VGND
+X0 Y A VPWR VPWR sky130_fd_pr__pfet_01v8 w=84 l=40
+X1 Y A VGND VGND sky130_fd_pr__nfet_01v8 w=42 l=40
+.ends
